@@ -1,5 +1,5 @@
 import * as React from "react"
-import AppNavBarComponent from "./navbar/Navbar"
+import AppNavBarComponent from "./navbar/NavbarReactStrap"
  
 const Layout = ({ children }) => {
   
