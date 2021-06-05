@@ -6,6 +6,16 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("node-sass"),
+        postCssPlugins: [],
+        sassOptions: {
+          precision: 6,
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "274728998",
