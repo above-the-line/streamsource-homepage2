@@ -2,8 +2,9 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import image from "./../../images/backgrounds/greenScreen.jpg"
 import image2 from "./../../images/backgrounds/rigFans.jpg"
-import image3 from "./../../images/backgrounds/rigFront.jpg"
-import image4 from "./../../images/backgrounds/horten.jpg"
+import image3 from "./../../images/backgrounds/PublishersWeekly2015.jpg"
+import image4 from "./../../images/backgrounds/codeSmall.jpg"
+import image5 from "./../../images/backgrounds/horten.jpg"
 
   
 const styles = {
@@ -35,10 +36,10 @@ const Slider = () => {
           src={image}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        <Carousel.Caption style={styles.carouselTextShadow}>
+          <h3>Stream Source delivers sub second latency on location or in the cloud</h3>
+          <p>Any device, Any OS, no apps required</p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,10 +50,10 @@ const Slider = () => {
           alt="First slide"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        <Carousel.Caption style={styles.carouselTextShadow}>
+          <h3>Stream Source delivers low cost, encrypted, streaming and replay options</h3>
+          <p>Audio and or video streamed to custom websites or social platforms of your choice.</p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -63,10 +64,10 @@ const Slider = () => {
           alt="First slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        <Carousel.Caption style={styles.carouselTextShadow}>
+          <h3>Stream Source delivers corporate live streaming and web production services</h3>
+          <p>Cloud, infrastructure, mobile apps </p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,10 +78,10 @@ const Slider = () => {
           alt="First slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+        <Carousel.Caption style={styles.carouselTextShadow}>
+          <h3>Stream Source delivers custom players and bespoke web solutions</h3>
+          <p>We are certified delivers computing architects who code.</p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -3,10 +3,16 @@ import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import * as style from "./NavbarReactStrapGatsby.module.css"
 
 const styles= {
     navBarText: {
-      textShadow: "1px 1px 1px #000000"
+        textColor: "white",
+        textShadow: "1px 1px 1px #000000"
+    },
+    navBarButton: {
+        outlineStyle:"auto",
+        outlineColor:"#cc6633"
     }
   }
 
@@ -31,12 +37,14 @@ const toggleNavbar = () => setCollapsed(!collapsed);
             </NavbarBrand>
             <NavbarToggler onClick={toggleNavbar} className="mr-2" />
             <Collapse isOpen={!collapsed} navbar>
-            <Nav navbar>
+            <Nav navbar className="">
                 <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                    <Link to="/" className="nav-link" className={style.gatsbyNavLink}>Services</Link>
+                    {/* <NavLink href="/" className={style.gatsbyNavLink}>Services</NavLink> */}
                 </NavItem>
                 <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                    <Link to="/" className="nav-link" className={style.gatsbyNavLink}>Equipment Hire</Link>
+                    {/* <NavLink href="/" className={style.gatsbyNavLink}>Equipment Hire</NavLink> */}
                 </NavItem>
             </Nav>
             </Collapse>
