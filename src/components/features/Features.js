@@ -1,12 +1,14 @@
 import React from "react";
 import * as style from "./Features.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { Container, Row, Col } from 'reactstrap';
+
 
 
 const Features = () => {
 
     return (
-        <div className="container">
+        <Container className={style.featuretteBody}>
             
             <div className={style.featuretteDivider}></div>
 
@@ -57,7 +59,7 @@ const Features = () => {
                 />
             </div>
             </div>        
-        </div>
+        </Container>
 
     )
 }
