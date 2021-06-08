@@ -1,4 +1,3 @@
-import image from "./../../images/icon.png"
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { StaticImage } from "gatsby-plugin-image"
@@ -24,7 +23,7 @@ const [collapsed, setCollapsed] = useState(true);
 const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-        <div>
+        
         <Navbar className="fixed-top bg-transparent" light>
             <NavbarBrand href="/" className="mr-auto">
                 <StaticImage
@@ -49,7 +48,7 @@ const toggleNavbar = () => setCollapsed(!collapsed);
             </Nav>
             </Collapse>
         </Navbar>
-        </div>
+        
     );
 }
   

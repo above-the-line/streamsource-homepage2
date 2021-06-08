@@ -1,19 +1,11 @@
-    /* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
-  
-  
   
   /* Featurettes
   ------------------------- */
-  
+  .featuretteBody {
+    padding-top: 3rem;
+  }
+
+
   .featuretteDivider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
     border-top: 1px solid red;

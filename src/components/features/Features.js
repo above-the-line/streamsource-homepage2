@@ -17,7 +17,7 @@ const Features = () => {
             </div>
             <div className="col-md-5">
                 <StaticImage
-                    src="./../../images/network-diagram.jpg"
+                    src="./../../images/networkDiagram.jpg"
                     width={500}
                     quality={100}
                     formats={["AUTO"]}
