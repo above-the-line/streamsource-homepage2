@@ -34,12 +34,12 @@ const Slider = () => {
           className="d-block w-100"
           style={styles.carouselImage}
           src={image}
-          alt="First slide"
+          alt="Q-TAKE and replay options"
         />
         <Carousel.Caption style={styles.carouselTextShadow}>
           <h3>Stream Source delivers sub second latency on location or in the cloud</h3>
           <p>Any device, Any OS, no apps required</p>
-          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#services">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -47,13 +47,13 @@ const Slider = () => {
           className="d-block w-100"
           style={styles.carouselImage}
           src={image2}
-          alt="First slide"
+          alt="Low latency streaming"
         />
 
         <Carousel.Caption style={styles.carouselTextShadow}>
           <h3>Stream Source delivers low cost, encrypted, streaming and replay options</h3>
           <p>Audio and or video streamed to custom websites or social platforms of your choice.</p>
-          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#services">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -61,13 +61,13 @@ const Slider = () => {
           className="d-block w-100"
           style={styles.carouselImage}
           src={image3}
-          alt="First slide"
+          alt="Corporate streaming"
         />
 
         <Carousel.Caption style={styles.carouselTextShadow}>
           <h3>Stream Source delivers corporate live streaming and web production services</h3>
           <p>Cloud, infrastructure, mobile apps </p>
-          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#services">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -75,13 +75,13 @@ const Slider = () => {
           className="d-block w-100"
           style={styles.carouselImage}
           src={image4}
-          alt="First slide"
+          alt="Custom Web Applications"
         />
 
         <Carousel.Caption style={styles.carouselTextShadow}>
           <h3>Stream Source delivers custom players and bespoke web solutions</h3>
           <p>We are certified delivers computing architects who code.</p>
-          <p><a className="btn btn-lg btn-outline-warning" href="#">Learn more &raquo;</a></p>
+          <p><a className="btn btn-lg btn-outline-warning" href="#services">Learn more &raquo;</a></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

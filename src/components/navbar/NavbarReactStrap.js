@@ -38,11 +38,15 @@ const toggleNavbar = () => setCollapsed(!collapsed);
             <Collapse isOpen={!collapsed} navbar>
             <Nav navbar className="">
                 <NavItem>
-                    <Link to="/" className="nav-link" className={style.gatsbyNavLink}>Services</Link>
+                    <Link to="#features" className="nav-link" className={style.gatsbyNavLink}>Services</Link>
                     {/* <NavLink href="/" className={style.gatsbyNavLink}>Services</NavLink> */}
                 </NavItem>
                 <NavItem>
-                    <Link to="/" className="nav-link" className={style.gatsbyNavLink}>Equipment Hire</Link>
+                    <Link to="#equipment" className="nav-link" className={style.gatsbyNavLink}>Equipment Hire</Link>
+                    {/* <NavLink href="/" className={style.gatsbyNavLink}>Equipment Hire</NavLink> */}
+                </NavItem>
+                <NavItem>
+                    <Link to="#equipment" className="nav-link" className={style.gatsbyNavLink}>Contact</Link>
                     {/* <NavLink href="/" className={style.gatsbyNavLink}>Equipment Hire</NavLink> */}
                 </NavItem>
             </Nav>

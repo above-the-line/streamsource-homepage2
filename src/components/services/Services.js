@@ -8,6 +8,7 @@ const Services = () => {
 
 
     return (
+        <a id="services">
         <div className={style.servicesBody}>
             <div className="container text-center">
                 <div className="row pt-3 translate-middle">
@@ -21,7 +22,7 @@ const Services = () => {
                         />
                         <h2>On Set VTR, Streaming and Communications</h2>
                         <p>Secure, low latency streaming to any device on set - you just need a web browser.</p>
-                        <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p>
+                        {/* <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p> */}
                     </div>
                     <div className="col-lg-4 translate-middle">
                         
@@ -34,7 +35,7 @@ const Services = () => {
                         />
                         <h2>Corporate and Events Live Streaming</h2>
                         <p>Encrypted streams to protected custom websites, viewer analytics and interactivity.</p>
-                        <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p>
+                        {/* <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p> */}
                     </div>
                     <div className="col-lg-4 translate-middle">
                         <StaticImage
@@ -47,12 +48,13 @@ const Services = () => {
 
                         <h2>Point2Point, Peer2Peer, Cloud and LAN</h2>
                         <p>Bespoke web apps and video players for those who need peak security and throughput.</p>
-                        <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p>
+                        {/* <p><a className="btn btn-outline-warning" href="#">View details &raquo;</a></p> */}
                     </div> 
                 </div> 
 
             </div>
         </div>
+        </a>
     )
 
 }

@@ -1,0 +1,12 @@
+  
+  /* Contact Details
+  ------------------------- */
+  .contactBody {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: lightgrey;  
+  }
+
+  .contactButton {
+    margin: 0.5rem
+  }

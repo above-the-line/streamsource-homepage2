@@ -1,5 +1,11 @@
 
+/* slategrey and khaki also nice */
+/* cornsilk */
 .servicesBody{
-    padding-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: "images/QTAKE-BG-DARK.jpg";
+    background-color: lightgrey;  
+
 
 }
